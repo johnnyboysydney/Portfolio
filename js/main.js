@@ -69,8 +69,17 @@ for(let i = 0; i<filterButtons.length; i++){
     })
 } 
 
+// Declaring Variables and Consts
+const closeLightbox = document.querySelector(".close-lightbox");
+let lightbox = document.querySelector(".lightbox");
+let lightboxImage = document.querySelector("img")
+const gallery = document.querySelector(".portfolio-gallery");
+const galleryItem = gallery.querySelectorAll(".item");
+
+
 // Closing lightbox from clicking outside of the image
 lightbox.addEventListener("click",function(){
+    event.stopPropagation();
     event.preventDefault();
     lightboxImage = "";
     if(event.target != lightboxImage) {
@@ -91,14 +100,12 @@ closeLightbox.addEventListener("click",function(){
 // When clicking on the plus icon, show the lightbox
 galleryItem.forEach(function(element){
     
-    element.querySelector(".fas-plus").addEventListener("click", function(){
+    element.querySelector(".fa-plus").addEventListener("click", function(){
         event.preventDefault();
         event.stopPropagation();
         lightbox.classList.remove("hide");
         lightbox.classList.add("show");
-        console.log(light)
         // changing the image source on every different img
-        //let portfolios = ;
         portfolios = element.querySelector("img").getAttribute("src");
        
         let newImg = document.createElement("img")
@@ -107,3 +114,5 @@ galleryItem.forEach(function(element){
         return(lightbox)
     })
 })
+
+
