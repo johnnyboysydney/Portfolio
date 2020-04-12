@@ -1,0 +1,12 @@
+/* Global Clases */
+
+/* Styling of fonts, and uppercases */
+.text-uppercase{
+    text-transform: uppercase!important;
+}
+.text-lowercase{
+    text-transform: lowercase!important;
+}
+.text-capitlaize{
+    text-transform: capitalize!important; 
+}
