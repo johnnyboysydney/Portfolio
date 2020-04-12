@@ -648,7 +648,110 @@ header .navbar ul li a.active::before {
     width: 12px;
     height: 12px;
 }
+
 /* End About Me */ 
+
+/* Contact Section  */
+.contact-us {
+   
+    background-color: #f5f8fd;
+}
+
+.contact-us .section-title h1:before {
+    left: 30%;
+}
+
+.contact-us .contact-form {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #eeeeee;
+}
+
+.contact-us .contact-form .text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-bottom: 22px;
+}
+
+.contact-us .contact-form .text h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us .contact-form .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+}
+
+.contact-us .contact-form .row {
+    flex: wrap;
+}
+
+.contact-us .contact-form .space-between{ 
+    justify-content: space-between;
+}
+
+.contact-us .contact-form .col-6 {
+    flex: 0 0 calc(50% -20px);
+    max-width: calc(50% -20px);
+}
+
+.contact-us .contact-form .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+
+.contact-us .contact-form .form-control {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--barlow);
+}
+
+.contact-us .contact-form textarea.form-control {
+    height: 140px;
+}
+
+.contact-us .contact-form .form-control::placeholder {
+    color: #838383;
+}
+
+.contact-us .contact-form .button {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact-us .contact-form .button a {
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: #febd01;
+    box-shadow: 0px 15px 20px #e8e8e8;
+    margin-right: 15px;
+}
+
+.contact-us .contact-form .button a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 /* Subscribe me */ 
 
