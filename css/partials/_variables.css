@@ -4,7 +4,11 @@
     --primary-color2:#e5aa01;
     --title-color:#fec41a;
     --text-color:#ffffff;
+    --bg-color1: #f5f8fd;
+    --bg-color2:#0c0c17;
+    --bg-hover:#ffffff;
     --border-color:#838383;
+    --border-color2:#ffffff;
     --gradient-color:linear-gradient(90deg, #dca401 0%, #8e6a01 100%);
     --shadow-color: 0px 10px 30px rgba(254, 189, 1, 1);
     --box-shadow: 0px 10px 30px rgb(57, 56 61, 0.205);
