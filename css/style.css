@@ -702,3 +702,56 @@ header .navbar ul li a.active::before {
 }
 
 /* End subscribe me */ 
+
+/* Footer Style Section */
+footer {
+    padding: 70px 15px;
+    background-color: var(--bg-color2);
+}
+
+footer .logo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color:var(--text-color);
+    font-weight: 600;
+}
+
+footer .social {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .social a { 
+    color: var(--social-color);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    transition: all .5s ease;
+}
+
+footer .social a:hover {
+    color: #ffffff;
+} 
+
+/* End Footer Section */
+
+/* Copyright style start */
+
+.copyright {
+    background-color: var(--bg-color2);
+    border-top: 1px solid #1d1d27;
+    padding: 15px;
+}
+
+.copyright p {
+    color: var(--border-color1);
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Copyright style End */
