@@ -293,15 +293,7 @@ header .navbar ul li a.active::before {
     padding: 100px 15%;
     background-color: #ffffff;
 }
-.skills .skills-content {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding-right: 40px;
-}
-.skills .img {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+
 .align-items-center {
     align-items: center;
 }
@@ -310,16 +302,18 @@ header .navbar ul li a.active::before {
     display: block;
 }
 .skills .skills-content .section-title {
-font-size: 15px;
-font-weight: 400;
-line-height: 24px;
-color: #838383;
-margin: 15px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 15px 0 0;
 }
 .skills .skills-content .skill-box {
-    flex: 0 0 100%;
-    max-width: 100%;
+    width: 100%;
+    display: block;
     margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 16px;
 }
 .skills .skills-content .skill-box h6 {
     font-size: 16px;
@@ -443,10 +437,119 @@ margin-bottom: 25px;
    font-size: 24px;
    color: #ffffff;
     font-weight: 600;
-    
 }
 .portfolio-work .portfolio-gallery .item:hover .overlay h4 {
     -webkit-animation: galleryText .8s ease;
     animation: galleryText .8s ease;
     animation-delay: .3s;
 }
+/* Start lightbox style */
+.lightbox{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgb(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lightbox.show {
+    display: flex;
+}
+.lightbox.hide{
+    display: none;
+}
+.lightbox .close-lightbox {
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 100%;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+}
+/* end of LightBox */
+
+/* Start Get in Touch */
+.message-text {
+    background-color: #0c0c17;
+    padding: 40px 15px;
+}
+.message-text .text  h2 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    line-height: 35px;
+}
+
+.message-text .button a{
+    border-radius: 4px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: block;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 2 ease-in-out;
+    transition-delay: .1;
+    background-color: transparent;
+}
+    .message-text .button a:hover {
+        background-color: #ffffff;
+        color: #000000;
+}
+/* End of Get in Touch */
+/* Start Testimonials */
+
+
+.about-area .about-title p{
+    padding: 1rem 7rem;
+}
+.about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.about-area .client .client-img{
+    padding: 2rem;
+}
+.about-area .client .about-client{
+    padding-top: 2rem;
+}
+.about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--barlow);
+}
+.about-area .client .about-client p{
+    font-size: 14px;
+}
+.about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+.about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End About Me */ 
+

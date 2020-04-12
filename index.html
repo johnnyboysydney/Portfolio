@@ -11,6 +11,7 @@
     <title>My Profesional Portfolio</title>
     
     <!--  Start of CSS files-->
+
     <!--  favicon  -->
     <link rel="shortcut icon" type="image/x-icon" href="./img/brands/favicon.ico">
 
@@ -20,11 +21,22 @@
     <!--  Bootstrap css file  -->
     <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <!--  font awesome icons  -->
     <link rel="stylesheet" href="./css/all.css">
 
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
     <!-- Custom Style CSS -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 <body>
@@ -248,7 +260,7 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="row align-items-center">
-                <div class="skills-content">
+                <div class="skills-content col-lg-6">
                     <div class="row">
                         <div class="section-title">
                             <h1>Professional Skills</h1>
@@ -291,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="img">
+                <div class="img col-lg-6">
                     <img src="./img/working_on_the_beach.jpg" alt="skills">
                 </div>
             </div>
@@ -323,7 +335,7 @@
                 <div class="portfolio-gallery">
                     <div class="item" data-id="systems">
                         <div class="inner">
-                            <img src="./img/systems1.jpg" alt="portfolio">
+                            <img src="./img/brands/systems1.jpg" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>Systems</h4>
@@ -332,7 +344,7 @@
                     </div>
                     <div class="item" data-id="network">
                         <div class="inner">
-                            <img src="./img/network.jpg" alt="portfolio">
+                            <img src="./img/brands/network.jpg" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>Network</h4>
@@ -341,7 +353,7 @@
                     </div>
                     <div class="item" data-id="security">
                         <div class="inner">
-                            <img src="./img/security.jpg" alt="portfolio">
+                            <img src="./img/brands/security.jpg" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>Security</h4>
@@ -350,7 +362,7 @@
                     </div>
                     <div class="item" data-id="webdesign">
                         <div class="inner">
-                            <img src="./img/webdesign.jpg" alt="portfolio">
+                            <img src="./img/brands/webdesign.jpg" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>Web Design</h4>
@@ -359,7 +371,7 @@
                     </div>
                     <div class="item" data-id="process&procedures">
                         <div class="inner">
-                            <img src="./img/process&procedures.jpg" class="portfolios" alt="portfolio">
+                            <img src="./img/brands/process&procedures.jpg" class="portfolios" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>Process & Procedures</h4>
@@ -368,7 +380,7 @@
                     </div>
                     <div class="item" data-id="ictportfolio">
                         <div class="inner">
-                            <img src="./img/ict.jpg" alt="portfolio">
+                            <img src="./img/brands/ict.jpg" alt="portfolio">
                             <div class="overlay">
                                 <span class="fas fa-plus"></span>
                                 <h4>ICT Portfolio</h4>
@@ -379,15 +391,118 @@
             </div>
         </div>
     </section>
-    <!-- End Portfolio Work -->
-
-            <!--  ======================== About Me Area ============================  -->
-
-            <!--  ======================== End About Me Area ========================  -->
-
-            <!--  ========================== Subscribe me Area ======================  -->
-
-            <!--  ========================== End Subscribe me Area ==================  -->
+    <!-- =======================  End Portfolio Work ======================= -->
+    <!-- =======================  Start Message  =======================  -->
+    <section class="message-text">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="text">
+                    <h2>I am extrmely passtionate about IT related topics that there is not a single day that
+                         I do not do something on my workstion or laptop, be that coding, scripting or learning.</h2>
+                </div>
+                <div class="button">
+                    <a href="">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  ======================= End Message ======================= -->
+    <!--  =======================  Start Testimonials ======================= -->
+    <section class="about-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="about-title">
+                        <h1 class="text-uppercase title-h1">What they say about me</h1>
+                        <p class="para">
+                            "John is an extremely capable and technically savvy individual"
+                            "John was very open and honest and has a great sense of humour!"
+                            "He strongly believes in root cause analysis"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container carousel py-lg-5">
+            <div class="owl-carousel owl-theme">
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/abelechenique.jpg" alt="Abel Echenique" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Abel Echenique</h4>
+                        <p>IT Engineer</p>
+                        <p class="para">John is an extremely capable and technically savvy individual. Beyond his tenacious work ethic he is professional
+                             and very customer oriented. He has the unique ability to create a friendly rapport with the customers he services and
+                              explain very technical concepts in a way they can understand. 
+                            This is a trait that is hard to come by in a technical role.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/danielrobinson.jpg" alt="Daniel Robinson" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Daniel Robinson</h4>
+                        <p>Development Consultant</p>
+                        <p class="para">I had the pleasure of working alongside John when looking he was looking to get back in the workforce. 
+                            John was very open and honest and has a great sense of humour! 
+                            Very happy to have had the chance to work with him and the references were just as glowing!</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/jesusmerchan.jpg" alt="Jesus Merchan"class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Jesus Merchan</h4>
+                        <p>IT Manager</p>
+                        <p class="para">John Merchan is an extremely capable IT Systems Administrator who is always eager to learn and overcome new challenges. 
+                            He grows with each obstacle encountered and is very creative in fault finding any problem. 
+                            He strongly believes in root cause analysis and documents all resolutions for the company's knowledge base to aid in future similar incidents.
+                            He is a trustworthy, honest person, and is able to manage small IT teams efficiently and directly.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <p>IT Engineer</p>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">John Martin</h4>
+                        <p>IT Manager</p>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <p>IT Engineer</p>
+                        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                            consequuntur ratione, obcaecati corrupti deserunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================  End Testimonials =======================  -->  
 
     <!--  ======================= End Main Area ================================ -->
 
@@ -396,16 +511,22 @@
     <!--  ======================= End Footrt Area ============================== -->
 
     <!-- ======================= Start of Scripts ============================== -->
+  
     <!--  Jquery js file  -->
-    <!-- <script src="./js/jquery.3.4.1.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./js/jquery.3.4.1.js"></script>
+
     <!--  Bootstrap js file  -->
-    <!--<script src="./js/bootstrap.min.js"></script>-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!--  Popper js file  -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <!-- FontAwesome script -->
-    <script src="https://kit.fontawesome.com/bc81703cc6.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
 
