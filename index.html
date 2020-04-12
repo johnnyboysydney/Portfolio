@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="./css/reset.css">
 
     <!--  Bootstrap css file  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-
+    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--  font awesome icons  -->
     <link rel="stylesheet" href="./css/all.css">
 
@@ -66,7 +66,7 @@
     <section class="banner">
         <div class="container">
             <div class="row">
-               <div class="col-6">
+               <div class="col-lg-6">
                     <div class="block">
                         <h6>Hello, My name is</h6>
                         <h1>John Merchan</h1>
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>     
-               <div class="col-6">
+               <div class="col-lg-6">
                    <div class="banner-image">
                    </div>
                </div> 
@@ -87,21 +87,299 @@
     </section>
     <!--  ======================= End Banner Area ===========================  -->
 
-            <!--  ========================= About Area ==============================  -->
+    <!--  ========================= About Area ==============================  -->
+    <section class="about-me" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>About Me</h1>
+                    <p class="small text-uppercase">Information About Me</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="row">
+                        <div class="img col-lg-4">
+                            <img src="./img/JohnMerchan.jpg" alt="John Merchan portrait">
+                        </div>
+                        <div class="text col-lg-8">
+                            <div class="row">
+                                <h4>I'm John Merchan</h4>
+                                <h6>A professional Senior Systems Engineer, Network Engineer & a <span>Web Developer </span>based in Sydney, Australia.</h6>
+                                <p>A motivated and professional IT System Administrator with more than 10 years’ commercial experience 
+                                    from a hospitality environment. Primarily focused on providing support to Windows based solutions, I have also installed and configured hardware and software technologies, various bespoke architectures and applications and managed people at all levels of experience. I am a firm believer in root cause analysis, fault-prevention, forward planning, 
+                                    documentation and adhering to commercial standards..</p>
+                            </div>
+                            <div class="row info">
+                                <div class="list col-lg-6">
+                                    <label>Birthday:</label>
+                                    <p>8th of November 1972</p>
+                                </div>    
+                                <div class="list col-lg-6">
+                                    <label>Email:</label>
+                                    <p>john.merchan@gmail.com</p>
+                                </div>
+                            </div>    
+                            <div class="row info">
+                                <div class="list col-lg-6">
+                                    <label>Phone:</label>
+                                    <p>+61 0404040404</p>
+                                </div>    
+                                <div class="list col-lg-6">
+                                    <label>Residence:</label>
+                                    <p>Sydney, Australia</p>
+                                </div>
+                            </div>
+                            <div class="row info">
+                                <div class="list col-lg-6">
+                                    <label>Skype:</label>
+                                    <p>JohnnyBoySyndey</p>
+                                </div>    
+                                <div class="list col-lg-6">   
+                                    <label>Address:</label>
+                                    <p>141 King Street</p>
+                                </div>
+                            </div>
+                            <div class="row info">
+                                <div class="list col-lg-6">    
+                                    <label>Consultant:</label>
+                                    <p>November 2020</p>
+                                </div>
+                                <div class="list col-lg-6">
+                                    <label>Hobbies:</label>
+                                    <p>Programming, Trekking & Reading</p>
+                                </div>
+                            </div>    
+                            <!-- Social Links -->
+                            <div class="row">
+                                <div class="social-links">
+                                    <a href=""><i class="fab fa-facebook"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-linkedin"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
 
             <!--  ========================= End About Area ==========================  -->
 
-            <!--  ======================== Brand Area ===============================  -->
+    <!-- ========================= Start Portfolio =========================  -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>My Portfolio</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-content">
+                    <div class="row">
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h5>Cabling closet</h5>
+                            <p>Many projext started by removing network cables, which were just added and cut and never removed,
+                                this lead to being unable to track them, therefore, recabling was a must in most cases.
+                                Leaving a professional cabinet, with proper cable management system in place.
+                            </p>
+                        </div>
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fas fa-ethernet"></i>
+                            </div>
+                            <h5>Deploying Infrastructure</h5>
+                            <p>Deploying complete infrastructures from Firewall, Physycal communication racks, cabling, switches, routers,
+                                servers, SAN, NAS, CCTV systems, cameras, motion sensors, Physical access controls, to the workstations/laptops.</p>
+                        </div>
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fab fa-windows"></i>
+                            </div>
+                            <h5>Migrating Systems</h5>
+                            <p>Deployed Windows Server from 2000 to 2019, either for new builds or part of a Migration or upgrade; 
+                                Performing these with the industry best practices in place, as for SQL databases, AD, DHCP, DNS, Exchange, FS, PS,
+                                farm-infrastructures. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fas fa-biohazard"></i>
+                            </div>
+                            <h5>Analyzing Threats</h5>
+                            <p>Performing deep analysis of a current infrastrucutre and advising where to increase the security, where is their most vulnerable
+                                data or system, and assisting in securing these elements. Auditing A/V, DLP, FW, Network Monitoring/Auditing tools.
+                            </p>
+                        </div>
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fas fa-scroll"></i>
+                            </div>
+                            <h5>Process & Procedures</h5>
+                            <p>Auditing new and old style companies and asssiting in deploying processes and procedures for the Infrastructure in place, or
+                                create one to be implemente for the current business needs. Ensure that there is a BCP, DR and a ITIL framwork in place.
+                            </p>
+                        </div>
+                        <div class="box col-lg-4">
+                            <div class="icon">
+                                <i class="fas fa-address-card"></i>
+                            </div>
+                            <h5>Fun Facts</h5>
+                            <p>I enjoy video games, and play regulary. I enjoy drawing and painting miniatures and creating dioramas with them. 
+                                Mostly, I enjoy learning, there is not a time that I am not learning something new. Currently, I am learning how to play the piano.
+                                I love reading books, made of paper lol.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================  End Portfolio =========================  -->
 
-            <!--  ======================== End Brand Area ===========================  -->
-
-            <!--  ====================== Start Services Area ========================  -->
-
-            <!--  ====================== End Services Area ==========================  -->
-
-            <!--  ======================= Project Area ==============================  -->
-            
-            <!--  ======================= End Project Area ==========================  -->
+    <!-- =======================  Start Skills =======================  -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="skills-content">
+                    <div class="row">
+                        <div class="section-title">
+                            <h1>Professional Skills</h1>
+                            <p>I assist my clients with their IT solutions, ranging from small, medium to enterprise level. Utilizing my knowledge and experience
+                                in delivering supurb experiences, from any where in the world.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="skill-box">
+                            <h6>Systems</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 93%">
+                                    <span>93%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>Network</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 60%">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>Security</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 71%">
+                                    <span>71%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <h6>Web Development</h6>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" style="width: 51%">
+                                    <span>51%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="./img/working_on_the_beach.jpg" alt="skills">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================  End Skills =======================  -->
+    <!-- Start Portfolio Work -->
+    <section class="portfolio-work" id="portfolio-work"> 
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Latests Work</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="filter-buttons">
+                    <ul id="filter-btns">
+                        <li class="active" data-target="all">All</li>
+                        <li data-target="systems">Systems</li>
+                        <li data-target="network">Network</li>
+                        <li data-target="security">Security</li>
+                        <li data-target="webdesign">Web Design</li>
+                        <li data-target="process&procedures">Process & Procedures</li>
+                        <li data-target="ictportfolio">ICT Portolio</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-gallery">
+                    <div class="item" data-id="systems">
+                        <div class="inner">
+                            <img src="./img/systems1.jpg" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>Systems</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="network">
+                        <div class="inner">
+                            <img src="./img/network.jpg" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>Network</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="security">
+                        <div class="inner">
+                            <img src="./img/security.jpg" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>Security</h4>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="item" data-id="webdesign">
+                        <div class="inner">
+                            <img src="./img/webdesign.jpg" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>Web Design</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="process&procedures">
+                        <div class="inner">
+                            <img src="./img/process&procedures.jpg" class="portfolios" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>Process & Procedures</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-id="ictportfolio">
+                        <div class="inner">
+                            <img src="./img/ict.jpg" alt="portfolio">
+                            <div class="overlay">
+                                <span class="fas fa-plus"></span>
+                                <h4>ICT Portfolio</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Work -->
 
             <!--  ======================== About Me Area ============================  -->
 
@@ -119,14 +397,15 @@
 
     <!-- ======================= Start of Scripts ============================== -->
     <!--  Jquery js file  -->
-    <script src="./js/jquery.3.4.1.js"></script>
-
+    <!-- <script src="./js/jquery.3.4.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!--  Bootstrap js file  -->
-    <script src="./js/bootstrap.min.js"></script>
-    
+    <!--<script src="./js/bootstrap.min.js"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!--  Popper js file  -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/bc81703cc6.js" crossorigin="anonymous"></script>
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
 

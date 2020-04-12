@@ -34,7 +34,6 @@ header .navbar ul li a{
     font-weight: 600;
     position: relative;
 }
-
 .navbar-nav .nav-item{
     padding: 5px;
 }
@@ -68,7 +67,6 @@ header .navbar ul li a.active::before {
 .banner {
     background-color: #252120;
 }
-
 .banner .block {
     max-width: 75%;
     padding-left:35px;
@@ -127,3 +125,328 @@ header .navbar ul li a.active::before {
     background-position: right;
 }
 /* End main style section */
+
+/* Start About Section Styling */
+.about-me {
+    padding: 50px 30px;
+    background-color: #ffffff ;
+}
+.about-me .section-title h1 {
+    text-transform:uppercase
+}
+.about-me .section-title p.small {
+    display: block;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.about-me .about-content .img img {
+    width: 100%;
+    display: block;
+}
+.about-me .about-content .text {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    padding-left: 30px;
+}
+.about-me .about-content .text h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #000000;
+}
+.about-me .about-content .text h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    color: #000000;
+}
+.about-me .about-content .text h6 span {
+    color: #fedd01;
+}
+.about-me .about-content .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 0 0 20px;
+}
+.about-me .about-content .text .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-me .about-content .text .info .list {
+
+    margin-top: 1opx;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+.about-me .about-content .text .info .list label {
+    padding-right: 10px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.about-me .about-content .text .info .list p {
+    margin: 0;
+}
+.about-me .about-content .text .social-links {
+    padding-top: 30px;
+}
+.about-me .about-content .text .social-links a{
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    border-radius:3px;
+    display: inline-block;
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 0 1px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.about-me .about-content .text .social-links a:hover {
+    background-color: transparent;
+}
+.about-me .about-content .text .social-links a .fa{
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.about-me .about-content .text .social-links a:hover .fa {
+    color: #000000;
+}
+/* End About Section Styling */
+
+/* Start My Portfolio */
+.portfolio {
+    background-color: #f5f8fd;
+    padding: 100px 15px 70px;
+}
+.portfolio .section-title h1:before{
+    left: 30%;
+}
+.portfolio .portfolio-content {
+    justify-content: space-between;
+}
+.portfolio .portfolio-content .box {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+.portfolio .portfolio-content .box::before {
+    content: '';
+    height: 2px;
+    background-color: #febd01;
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all .5s ease;
+}
+.portfolio .portfolio-content .box:hover::before {
+    width: 100%;
+}
+.portfolio .portfolio-content .box .icon {
+    height: 60px;
+    width: 60px;
+    background-color: #febd01;
+    margin: 15px auto 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.portfolio .portfolio-content .box .icon .fas {
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 60px;
+}
+.portfolio .portfolio-content .box .icon .fab {
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 60px;
+}
+.portfolio .portfolio-content .box h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+.portfolio .portfolio-content .box p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 10px 0 10px;
+}
+/* End My Portfolio */
+/* Start Skills section */
+.skills {
+    padding: 100px 15%;
+    background-color: #ffffff;
+}
+.skills .skills-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 40px;
+}
+.skills .img {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.align-items-center {
+    align-items: center;
+}
+.skills .img img {
+    width: 100%;
+    display: block;
+}
+.skills .skills-content .section-title {
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+color: #838383;
+margin: 15px 0 0;
+}
+.skills .skills-content .skill-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.skills .skills-content .skill-box h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 0 8px ;
+}
+.skills .skills-content .skill-box .skill-bar {
+    height: 5px;
+    background-color: #eeeeee;
+    position: relative;
+}
+.skills .skills-content .skill-box .skill-bar .skill-bar-in {
+    background-color: #febd01;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.skills .skills-content .skill-box .skill-bar .skill-bar-in span {
+    color: #838383;
+    font-size: 15px;
+    font-weight: 400;   
+    position: absolute;
+    right: 0; 
+    top: -30px;
+}
+/* End of skills section styling */
+
+/* Start Portfolio work section styling*/
+.portfolio-work {
+    background-color: #f5f8fd;
+    padding: 100px 1px;
+}
+
+.portfolio-work .section-title h1:before {
+    left: 30%;
+}
+.portfolio-work .filter-buttons {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.portfolio-work .filter-buttons ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.portfolio-work .filter-buttons ul li {
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 0px;
+}
+.portfolio-work .filter-buttons ul li.active {
+    color: #febd01;
+    border-bottom: 2px solid #febd01;
+}
+.portfolio-work .filter-buttons {
+margin-bottom: 25px;
+}
+.portfolio-work .portfolio-gallery {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-work .portfolio-gallery .item {
+    flex: 0 0 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    margin-bottom: 16px;
+    position: relative;
+}
+.portfolio-work .portfolio-gallery .item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.portfolio-work .portfolio-gallery .item .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.portfolio-work .portfolio-gallery .item:hover .overlay{
+    opacity: 1;
+}
+.portfolio-work .portfolio-gallery .item .overlay .fas {
+    height: 50px;
+    width: 50px;
+    background-color: #febd01;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.portfolio-work .portfolio-gallery .item:hover .overlay .fas {
+    -webkit-animation: galleryIcon .8s ease;
+    animation: galleryIcon .8s ease;
+    animation-delay: .3s;
+}
+.portfolio-work .portfolio-gallery .item .overlay h4 {
+    margin-top: 15px;
+   font-size: 24px;
+   color: #ffffff;
+    font-weight: 600;
+    
+}
+.portfolio-work .portfolio-gallery .item:hover .overlay h4 {
+    -webkit-animation: galleryText .8s ease;
+    animation: galleryText .8s ease;
+    animation-delay: .3s;
+}
