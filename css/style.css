@@ -18,12 +18,8 @@ header .navbar {
     border-bottom: 1px solid #423940;
 }
 
-header .navbar-brand {
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: relative;
+header .navbar-brand img{
+    max-width: 100px;
 }
 
 header .navbar ul li {
@@ -905,13 +901,11 @@ footer {
     background-color: var(--bg-color2);
 }
 
-footer .logo {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    font-size: 45px;
-    color:var(--text-color);
-    font-weight: 600;
+footer .logo img{
+    max-width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer .social {
