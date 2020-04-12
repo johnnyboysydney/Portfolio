@@ -653,7 +653,6 @@ header .navbar ul li a.active::before {
 
 /* Contact Section  */
 .contact-us {
-   
     background-color: #f5f8fd;
 }
 
@@ -663,9 +662,9 @@ header .navbar ul li a.active::before {
 
 .contact-us .contact-form {
     width: 100%;
-    background-color: #ffffff;
+    background-color:var(--border-color2);
     padding: 50px;
-    border: 1px solid #eeeeee;
+    border: 1px solid var(--border-color1);
 }
 
 .contact-us .contact-form .text {
@@ -677,17 +676,19 @@ header .navbar ul li a.active::before {
 .contact-us .contact-form .text h2 {
     font-size: 26px;
     font-weight: 600;
-    color: #000000;
+    color: var(--text-color2);
     margin: 0;
     padding: 0;
+    
 }
 
 .contact-us .contact-form .text p {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    color: #838383;
+    color: var(--border-color);
     margin: 0;
+    font: var(--barlow);
 }
 
 .contact-us .contact-form .row {
@@ -755,8 +756,11 @@ header .navbar ul li a.active::before {
 
 /* Subscribe me */ 
 
+..subscribe-us-area {
+    background-color: #252120;
+}
+
 .subscribe-us-area .subscribe{
-    background-color: #252120;;
     padding: 10rem 0;
     margin: 3rem auto;
 }
