@@ -651,18 +651,106 @@ header .navbar ul li a.active::before {
 
 /* End About Me */ 
 
-/* Contact Section  */
-.contact-us {
-    background-color: #f5f8fd;
+/* Start Blogs Section  */
+.blogs {
+    padding: 100px 15px;
+    background-color: #ffffff;
 }
 
+.blogs .section-title h1:before{
+    left:30%
+}
+
+.blogs .blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogs .blog-content .box .img {
+    overflow: hidden;
+}
+
+.blogs .blog-content .box .img img {
+    width: 100%;
+    display: block;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.blogs .blog-content .box:hover .img img {
+    transform: scale(1.1);
+}
+
+.blogs .blog-content .box .info {
+    padding: 10px 0;
+} 
+
+.blogs .blog-content .box .info span {
+    font-size: 12px;
+    color: #838383;
+    display: inline-block;
+}
+
+.blogs .blog-content .box .info span:nth-child(even) {
+    border-left: 1px solid #000000;
+    background-color: red;
+    padding-left: 8px;
+    margin-left: 10px;
+    width: 100%;
+} 
+
+.blogs .blog-content .box h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 10px;
+    padding: o;
+}
+
+.blogs .blog-content .box p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+}
+
+.blogs .blog-content .box a {
+    font-size: 14px;
+    color: #febd01;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #febd01;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+}
+
+.blogs .blog-content .box a:hover{
+    color: #000000;
+    border-color: #000000;
+}
+
+/* End Blog section */
+
+/* Contact Section  */
+.contact-us {
+    background-color:#252120;
+}
+
+.contact-us .section-title h1 {
+    color: var(--text-color);
+}
 .contact-us .section-title h1:before {
     left: 30%;
 }
 
 .contact-us .contact-form {
     width: 100%;
-    background-color:var(--border-color2);
+    background-color:var(--bg-main-color);
     padding: 50px;
     border: 1px solid var(--border-color1);
 }
@@ -676,7 +764,7 @@ header .navbar ul li a.active::before {
 .contact-us .contact-form .text h2 {
     font-size: 26px;
     font-weight: 600;
-    color: var(--text-color2);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
     
@@ -736,33 +824,33 @@ header .navbar ul li a.active::before {
 
 .contact-us .contact-form .button a {
     border-radius: 4px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    padding: 12px 15px;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 12px 25px;
     text-decoration: none;
+    display: block;
+    display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
-    transition: all .5s ease;
-    background-color: #febd01;
-    box-shadow: 0px 15px 20px #e8e8e8;
-    margin-right: 15px;
+    transition: all 2 ease-in-out;
+    transition-delay: .1;
+    background-color: transparent;
 }
 
 .contact-us .contact-form .button a:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--bg-hover);
+    color: var(--text-color2);
 }
 
 /* Subscribe me */ 
 
-..subscribe-us-area {
+.subscribe-us-area {
     background-color: #252120;
 }
 
 .subscribe-us-area .subscribe{
     padding: 10rem 0;
-    margin: 3rem auto;
 }
 
 .subscribe-us-area .subscribe .subscribe-title h4{
@@ -790,7 +878,7 @@ header .navbar ul li a.active::before {
 .subscribe-us-area .subscribe form .btn-submit button{
     border-radius: 4px;
     color: var(--text-color);
-    border: 1px solid var(--border-color2);
+    border: 1px solid var(--border-color);
     padding: 12px 25px;
     text-decoration: none;
     display: block;
@@ -811,6 +899,7 @@ header .navbar ul li a.active::before {
 /* End subscribe me */ 
 
 /* Footer Style Section */
+
 footer {
     padding: 70px 15px;
     background-color: var(--bg-color2);
