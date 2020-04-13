@@ -116,3 +116,5 @@ galleryItem.forEach(function(element){
 })
 
 
+
+
