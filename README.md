@@ -3,7 +3,7 @@ New portfolio created, new view, more dynamic and responsive.
 
 ### Link to working App
 
-https://johnnyboysydney.github.io/Work-Day-Scheduler/.
+https://johnnyboysydney.github.io/Portfolio/.
 
 ### Description
 This app will run in the browser and display my current portfolio.
@@ -32,7 +32,7 @@ Tests were conducted using Firefox, Chrome and Edge and there were no issues.
 ![capture4](https://user-images.githubusercontent.com/54227198/79071994-fd94c680-7d21-11ea-93fe-1ab98087be7f.JPG)<br>
 
 ### Licence
-This project is licensed under the  License - see the Link to the LICENCE file for details
+This project is licensed under the MIT- License
 
 ### Author
 John Merchan
