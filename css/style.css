@@ -256,6 +256,16 @@ header .navbar ul li a.active::before {
 .about-me .about-content .text .social-links a:hover .fa {
     color: #000000;
 }
+#github {
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+#github a:hover {
+    background-color: transparent;
+}
+
 
 /* End About Section Styling */
 
@@ -926,6 +936,18 @@ footer .social a {
 footer .social a:hover {
     color: #ffffff;
 } 
+
+footer .social #githubFooter {
+    color: var(--social-color);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    transition: all .5s ease;
+}
+footer .social #githubFooter a:hover {
+    background-color: transparent;
+}
+
 
 /* End Footer Section */
 
