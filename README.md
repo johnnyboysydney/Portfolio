@@ -17,9 +17,9 @@ Using vender pakages as owl-carusel, Magnific-popup (work-in-progress), isotope,
 As bootrap, jquery, fontawesome,
 
 ### Built with
-VScode - The editor of choice
-Notepad++ - My second editor
-Gitbash - What would we do without our bash?
+VScode - The editor of choice  
+Notepad++ - My second editor  
+Gitbash - What would we do without our bash?  
 
 ### Running Tests
 Tests were conducted using Firefox, Chrome and Edge and there were no issues.
