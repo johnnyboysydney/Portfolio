@@ -738,14 +738,20 @@
                     </div>
                 </div>
                 <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
+                    <form class="email-form"  name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                         <div class="row d-flex flex-row flex-wrap">
+                            <div hidden aria-hidden="true">
+                                <label>
+                                  Don’t fill this out if you're human: 
+                                  <input name="bot-field" />
+                                </label>
+                            </div>
                             <div class="col input-textbox">
-                                <input type="text" id="txtemail" required class="form-control" placeholder="Email">
+                                <input type="email" name="email" id="txtemail" required class="form-control" placeholder="Email" id="email" required>
                             </div>
                             <div class="col">
                                 <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                                    <button type="submit" class="btn btn-success">Subscribe</button>
                                 </div>
                             </div>
                         </div>
