@@ -3,7 +3,7 @@ New portfolio created, new view, more dynamic and responsive.
 
 ### Link to working App
 
-https://johnnyboysydney.github.io/Portfolio/.
+https://brave-wright-72a364.netlify.app/.
 
 ### Description
 This app will run in the browser and display my current portfolio.
@@ -24,7 +24,7 @@ Gitbash - What would we do without our bash?
 ### Running Tests
 Tests were conducted using Firefox, Chrome and Edge and there were no issues.
 
-###Screenshots:
+### Screenshots:
 
 ![capture1](https://user-images.githubusercontent.com/54227198/79071988-fb326c80-7d21-11ea-86d2-ba50ac6d57f9.JPG)<br>
 ![capture2](https://user-images.githubusercontent.com/54227198/79071992-fc639980-7d21-11ea-9b58-7ef40ea6bf97.JPG)<br>
@@ -42,5 +42,5 @@ John Merchan
 * Change lighthouse function for a library of images instead of single images.
 * Add my real Blogs to my blogs sections, instead of online resources.
 * Finalize the inclusion of firebase to the project. Removed due to lack of time to implement.
-* Included my projects work in word document or google docs in an enchanced section describing my prior work.
+* Include my projects work in word document or google docs in an enchanced section.
 =================================================================================
