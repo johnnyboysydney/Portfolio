@@ -1,4 +1,5 @@
 # Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8427db9e-05ee-423c-ac18-30fe8ccbd624/deploy-status)](https://app.netlify.com/sites/brave-wright-72a364/deploys)  
 New portfolio created, new view, more dynamic and responsive.
 
 ### Link to working App
