@@ -6,6 +6,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "netlify": "^4.3.0",
     "node": "^14.4.0",
     "node-fetch": "^2.6.0",
     "nodemailer": "^6.4.8",

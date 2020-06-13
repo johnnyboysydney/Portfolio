@@ -17,8 +17,8 @@
     --shadow-color: 0px 10px 30px rgba(254, 189, 1, 1);
     --box-shadow: 0px 10px 30px rgb(57, 56 61, 0.205);
     /* Font family */
-    --barlow: 'Barlow',cursive!important;
-}
+    --barlow: 'Barlow',cursive!important; 
+} 
 html, body{
     margin: 0%;
     box-sizing: border-box;
@@ -26,4 +26,3 @@ html, body{
     height: 100%;
     scroll-behavior: smooth!important;
 }
-
